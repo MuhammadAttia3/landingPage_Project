@@ -1,13 +1,32 @@
 # Landing Page Project
 
+Simple Project for Practicing after learning (HTML, CSS, JS and The DOM)
+
 ## Table of Contents
 
-* [Instructions](#instructions)
+CSS, Html, Javascript. I have searched many resources to get the necessarily knowladge in order to finish this project.
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This Project was just a kick-start to navigate around the Page
+it has not too many Functions but just basics:
 
-To get started, open `js/app.js` and start building out the app's functionality
+# Creating Navigation Bar by JS
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+As Unordered List can take many lists as desired then this list will be added to The nav bar in the HTML while loading the Page.
+
+# Navigate to Sections making The Section on the Screen Active.
+
+Event Listener implemented to just determine the section currently on viewport, then set the animation class active.
+
+# Scrolling to clicked Section:
+
+this suppose to scroll the screen to the clicked Section but smoothly and comfortable way, so it would not hurt the Viewer's eyes
+
+# Final Thought
+
+This indeed was a humble and quite simple experience for a professional Developer, but for me was a real thing :) in terms to practice all what i heve passively learned.
+
+thanks a lot for your reviewing. I am really grateful so far.
+
+>>>>>>>>>>>>>
