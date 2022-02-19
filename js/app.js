@@ -17,44 +17,19 @@
 const sections = document.querySelectorAll('section');
 const navbarList = document.getElementById('navbar__list');
 
-/**
- * End Global Variables
- * Start Helper Functions
- * 
-*/
-
-
-
-/**
- * End Helper Functions
- * Begin Main Functions
- * 
-*/
 
 // // building the navigation bar.
-let fragment = Document.createDocumentFragment();
-let navBar = () => {
+const navBar = () => {
+    const fragment = document.createDocumentFragment();
     for (const section of sections) {
-        const aList = Document.createElement('li');
-        const aListLink = Document.createElement('a');
-        aListLink.textContent = section.dataset.nav;
-        aListLink.classList.add('menu__link');
-        aList.appendChild(aListLink);
+        const aList = document.createElement('li');
+        aList.innerHTML = `<a class="menu__link" href="#${section.id}">${section.dataset.nav}</a>`;
         fragment.appendChild(aList);
     };
-    navbar__list.appendChild(fragment);
+    navbarList.appendChild(fragment);
 }
 
-// const fragment = document.createDocumentFragment();
-// function navBar() {
-//     sections.forEach(section => {
-//         const aList = document.createElement('li');
-//         aList.innerHTML = `<a class="menu__link" href="#${section.id}">${section.dataset.nav}</a>`;
-//         navbarList.appendChild(aList);
-//     });
-//     // navbarList.appendChild(fragment);
-// }
-navBar();
+
 
 // Add class 'active' to section when near top of viewport
 
@@ -74,4 +49,5 @@ navBar();
 
 // Set sections as active
 
-
+//Calling 
+navBar();
