@@ -31,6 +31,14 @@ h1 {
         font-size: 7em;
         margin: 2em 4rem 1em;
     }
+    .navbar__menu ul {
+        padding-left: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .navbar__menu li {
+        display:block;
+    }
 }
 
 h2 {
@@ -74,16 +82,6 @@ section {
     display: inline-block;
 }
 
-@media screen and (min-width: 300px){
-    .navbar__menu li {
-        display:block;
-    }
-    .navbar__menu ul {
-        padding-left: 0;
-        margin: 0;
-        text-align: center;
-    }
-}
 
 .navbar__menu .menu__link {
     display: block;
